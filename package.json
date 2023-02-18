@@ -1,7 +1,7 @@
 {
   "name": "goit-js-hw-08",
   "version": "1.0.0",
-  "description": "",
+  "description": "my homework #8",
   "homepage": "https://olgabieliaieva.github.io/goit-js-hw-08",
   "scripts": {
     "start": "parcel src/*.html",
@@ -12,17 +12,27 @@
     "url": "git+https://github.com/OlgaBieliaieva/goit-js-hw-08"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Olga Bieliaieva",
   "license": "ISC",
   "dependencies": {
+    "@vimeo/player": "^2.18.0",
+    "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
     "simplelightbox": "^2.12.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "https-browserify": "^1.0.0",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
+    "path-browserify": "^1.0.1",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10",
+    "querystring-es3": "^0.2.1",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
